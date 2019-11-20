@@ -22,7 +22,7 @@
     margin: 0;
   }
   #send-container {
-    background: #3a325d;
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
     padding: 3px;
     position: fixed;
     bottom: 0;
@@ -43,14 +43,14 @@
     background-color: rgb(199, 199, 199);
   }
   #msgButton {
-    width: 2.3rem;
+    width: 3.4rem;
     margin-top: 1%;
-    background-image: url(/Send-02.png);
+    color:white;
     background-size: cover;
     border: none;
     padding: 10px;
     border: 2px solid rgb(9, 99, 129);
-    background-color: rgb(41, 171, 194);
+    background-color: rgb(29, 74, 134);
     height: 2.3rem;
     font-size: 0.9rem;
     position: fixed;
@@ -59,7 +59,7 @@
 
   #message-container {
     width: 100%;
-    background: rgb(187, 185, 185);
+    background: rgb(209, 209, 209);
     height: 88vh;
   }
   

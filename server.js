@@ -9,6 +9,10 @@ app.get('/', (req, res)=> {
     res.status(200).sendFile(__dirname + '/index.html')
 })
 
+app.get('/chat', (req, res) => {
+    res.status(200).sendFile(__dirname + '/chat.html')
+})
+
 
 var server = app.listen(port, ()=> {
     console.log(`Server is up on ${port}`);

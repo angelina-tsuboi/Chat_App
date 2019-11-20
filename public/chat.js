@@ -15,6 +15,6 @@ sendButton.addEventListener("click", ()=> {
 
 //Listen for event
 socket.on('chat-message', data => {
-    output.innerHTML += '<div class="message"><p>' + data.message + '</p></div>';
+    output.innerHTML += '<div class="message"><p><strong>'+ sessionStorage.getItem("name") +'</strong>' + ': ' + data.message + '</p></div>';
     messageInput.value = '';
 })
