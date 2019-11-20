@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.message{
+  border-bottom : 0.5px solid rgb(116, 127, 226);
+  background-color: rgb(143, 154, 200);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#view{
+  display: flex;
+}
+
+  body {
+    font: 13px Helvetica, Arial;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  #send-container {
+    background: #3a325d;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #output p{
+    color:white;
+  }
+    input {
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 4px;
+    background-color: rgb(199, 199, 199);
+  }
+  #msgButton {
+    width: 2.3rem;
+    margin-top: 1%;
+    background-image: url(/Send-02.png);
+    background-size: cover;
+    border: none;
+    padding: 10px;
+    border: 2px solid rgb(9, 99, 129);
+    background-color: rgb(41, 171, 194);
+    height: 2.3rem;
+    font-size: 0.9rem;
+    position: fixed;
+  }
+
+
+  #message-container {
+    width: 100%;
+    background: rgb(187, 185, 185);
+    height: 88vh;
+  }
+  
+  #send-container{
+
+  }
